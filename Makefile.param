@@ -1,0 +1,7 @@
+# Makefile.param
+#
+
+export CROSS?=
+export CC:=$(CROSS)gcc
+export AR:=$(CROSS)ar
+
